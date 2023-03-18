@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+         <header>
+            <h1>Create Quiz</h1>
+              <div class="success callout" data-closable="slide-out-right">
+                <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+         </header>
+        <button id="generate" onclick="addBox()"> + Add Question</button>
+        <div id="quiz"></div>
+        
+           <div id="results"></div>                         
+           <button id="submit"> SUBMIT</button>
+    </div>
+    <div class = "quiz-table">
+        <table class="list" id="quizList">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Option - 1</th>
+                    <th>Option - 2</th>
+                    <th>Option - 3</th>
+                    <th>Option - 4</th>
+                    <th>Answer</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
